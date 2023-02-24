@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.ico"/>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Directorio Teléfonico</title>
+  </head>
+  <body>
+    <header>
+      <h1>Directorio Teléfonico</h1>
+    </header>
+    <main>
+        <section id="signup">
+            <h2>Registrarse</h2>
+            <br>
+            <form id="signup-form">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="correo2">Correo Electrónico:</label>
+                <input type="email" id="correo2" name="correo2" required>
+                <label for="contrasena2">Contraseña:</label>
+                <input type="password" id="contrasena2" name="contrasena2" required>
+                <input type="submit" value="Registrarse">
+            </form>
+            <br>
+            <div id="mensaje"></div>
+        </section>
+    <section id="login">
+    <img src="./img/logo.png" alt="Login inicio de sesión">
+    <h2>Iniciar Sesión</h2>
+    <br>
+     <form>
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+        <input type="submit" value="Iniciar Sesión">
+        <div id="mensaje-login"></div>
+    </form>
+    </section>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

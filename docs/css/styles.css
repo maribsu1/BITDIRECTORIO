@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  header {
+    background-color: #2b76b4;
+    color: #ffffff;
+    padding: 20px;
+  }
+  header h1 {
+    font-family: 'Righteous';
+    margin: 0;
+  }
+  main {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #login img {
+    display: block;
+    max-width: 110px; 
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 100px;
+  }
+  
+  section h2 {
+    font-family: 'Righteous';
+    font-size: 1.5rem;
+    margin-left: 85px;
+    color: #3b80ce;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #585761;
+    
+  }
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="password"] {
+    background-color: #e6eaf3;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  form input[type="submit"] {
+    background-color: #3b80ce;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  form input[type="submit"]:hover {
+    background-color: #3c5e91;
+  }
+ 
+  #mensaje {
+    color: #1a9b5f;
+    font-family: 'Righteous';
+    font-size: 1rem;
+    margin-left: 2px;
+  }
+  #mensaje-login {
+    color: #e42e16;
+    font-family: 'Righteous';
+    font-size: 1rem;
+    margin-left: 2px;
+  }
+  .usuario {
+    background-color: #e7ecec;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    transition: 0.6s;
+  }
+  .usuario:hover {
+    background-color: #a8d7f1;
+    font-size: 1.05rem;
+  }
+  .usuario-id {
+    font-weight: bold;
+    font-size: 1rem;
+    color:  #2b76b4; 
+  }
+  #directorio-usuarios {
+    background-color: #2b76b4;
+    border-radius: 2px;
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+ 
+  .imagen-usuario {
+    width: 45px;
+    height: 45px;
+    float: left;
+    margin-right: 10px;
+    transition: 0.6s;
+  }
+  .imagen-usuario:hover {
+    transform: scale(1.2);
+  }
+
+  .boton-cerrar-sesion {
+    float: right;
+    border: 1px solid white;
+    background-color: #f30606c7;
+    color: white;
+    padding: 8px;
+    margin-right: 8px;
+    margin-top: -35px;
+    border-radius: 3px;
+  }
+  
+  .boton-cerrar-sesion:hover {
+    background-color: #f02f2f;
+    color: #ffffff;
+  }
+
+  @media (max-width: 600px) {
+    header {
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    #btn-cerrar-sesion {
+      margin: -20px auto;
+      display: block;
+    }
+  
+    .usuario {
+      display: block;
+      margin: 10px auto;
+      padding: 10px;
+      width: 90%;
+      border: 2px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .usuario img {
+      display: block;
+      margin: 10px auto;
+      max-width: 100%;
+    }
+  
+    .usuario-id, .usuario-nombre, .usuario-email, .usuario-telefono {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .usuario-id {
+      font-weight: bold;
+    }
+  
+    .usuario-nombre {
+      font-size: 18px;
+    }
+  
+    .usuario-email {
+      color: #888;
+    }
+  
+    .usuario-telefono {
+      font-size: 14px;
+      color: #888;
+    }
+  }
+  
